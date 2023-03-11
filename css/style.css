@@ -1,0 +1,55 @@
+.row, .Item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#Highlight {
+    transition: all .33s;
+}
+
+#Highlight:hover {
+    background-color: rgba(173, 216, 230, 0.333);
+    border-radius: 3px;
+    border: 3px darkblue;
+    font-size: large;
+    transition: all .33s;
+}
+
+.Item_Qty {
+    display: flex;
+}
+
+.Quantity {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.Item_SubTotal {
+    padding-left: 3em;
+    font-size: large;
+}
+
+.Remove {
+    border-color: rgba(77, 20, 20, 0.666);
+    background-color: rgba(250, 63, 63, 0.333);
+}
+
+.New {
+    padding-top: 1.5em;
+}
+
+#Add_To {
+    border-color: rgba(20, 30, 77, 0.666);
+    background-color: rgba(63, 82, 250, 0.333);
+}
+
+.Total_Row {
+    display: flex;
+}
+
+#Total_Price {
+    padding-top: 0.65em;
+    padding-left: 1.5em;
+    font-size: xx-large;
+}

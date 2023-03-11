@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Shopping Cart</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/application.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+      <section class="container">
+
+        <div class="row">
+
+          <div class="Cart_Title col-xs-12">
+
+            <h1>Shopping Cart</h1>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="Item_List" class="container">
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Tire</div>
+
+          <div class="Item_Price col-xs-3">$95</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Wheel</div>
+
+          <div class="Item_Price col-xs-3">$200</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Caliper</div>
+
+          <div class="Item_Price col-xs-3">$250</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Brake Pad Set</div>
+
+          <div class="Item_Price col-xs-3">$30</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Brake Rotor</div>
+
+          <div class="Item_Price col-xs-3">$30</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Flexible Brake Line</div>
+
+          <div class="Item_Price col-xs-3">$15</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Wheel Bearing Set</div>
+
+          <div class="Item_Price col-xs-3">$50</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">McPherson Strut</div>
+
+          <div class="Item_Price col-xs-3">$200</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div id="Highlight" class="row Item">
+
+          <div class="Item_Name col-xs-3">Rear Strut</div>
+
+          <div class="Item_Price col-xs-3">$100</div>
+
+          <div class="Item_Qty col-xs-3">
+
+            <label>QTY</label>
+
+            <input class="Quantity" type="number">
+
+          </div>
+          
+          <div class="col-xs-1">
+
+            <button class="Remove">Remove</button>
+
+          </div>
+
+          <div class="Item_SubTotal col-xs-2">$ --.--</div>
+
+        </div>
+
+        <div class="row Item New">
+
+          <div class="col-xs-3">
+
+            <input id="Name" placeholder="Rear Spring">
+
+          </div>
+
+          <div class="col-xs-3">
+
+            <input id="Price_New" placeholder="75">
+
+          </div>
+
+          <div class="col-xs-3">
+
+            <button id="Add_To">Add</button>
+
+          </div>
+
+        </div>
+
+        <div class="row Total_Row">
+
+          <h1 class="Total_Price_Label">Total Price</h1>
+
+          <div id="Total_Price">$ --.--</div>
+
+        </div>
+
+      </section>
+
+  </body>
+
+</html>
